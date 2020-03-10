@@ -109,8 +109,8 @@ textarea {
 .search{
     margin-left:auto;
     margin-right:auto;
-    width:300px;
-    height:150px;
+    width:900px;
+    height:50px;
     margin-top:90px;
 }
 
@@ -119,5 +119,6 @@ textarea {
     height:40px;
 }
 .search button{
+    width:30%;
     height:40px;
 }
