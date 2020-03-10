@@ -11,7 +11,7 @@
 
     <div class="main-pice">
 
-        <div class="some">
+        <div class="some col-md-8">
 
         </div>
         <div class="left-pice">
@@ -30,7 +30,7 @@
                 @Html.DisplayFor(modelItem => item.Country)
 
                 @*@Html.DisplayFor(modelItem => item.Time)*@
-                <button class="">
+                <button>                   
                     @Html.ActionLink("Details", "Details", new { id = item.Id })
                 </button>
             </div>
